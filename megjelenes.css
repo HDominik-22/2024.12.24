@@ -1,0 +1,131 @@
+#kezdocim{
+    /*szöveg vízszintre igazítása*/
+    text-align: center;
+    color: white;
+}
+body{
+    /*háttérnek a színe változtatása*/
+    background-color: green
+}
+p{
+    /*szöveg színének a változtatása*/
+    color: black;
+}
+
+img{
+    /*képek balra reptetése*/
+    float: left;
+    /*kép szélessége*/
+    /*width: 30%;*/
+    width: 100px;
+    height: auto;
+    /*height: 5cm;*/
+}
+
+table{
+    background-color:  white;
+    /*kép reptetésének megszűntetése*/
+    /*float: unset;*/
+    clear: both;
+}
+
+table, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+#hatter{
+    background-image: url("smiley2.png");
+    /*kép pozícionálása*/
+    background-size: contain;
+    /*background-size: cover;*/
+    /*háttér ismétlődés állítás*/
+    background-repeat: no-repeat;
+    /*háttér pozíciójának a beállítása*/
+    background-position: center center;
+}
+
+ul>li{
+    list-style-image: url(smiley2.png);
+    list-style-position: inside;
+}
+
+ol>li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    /*text-decoration: wavy;*/
+}
+
+div>p{
+    text-indent: 50px;
+    text-transform: capitalize;
+}
+
+#szoveg{
+    background-color: white;
+    border: gray solid 1px;
+    /*Margó beállítás,kereten kívüli távolság*/
+    /*1. megoldás*/
+    margin-left: 50px;
+    margin-right: 50px;
+    /*2. megoldás*/
+    margin: auto 50px;
+    /*kereten belüli távolság*/
+    /*1. megoldás*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /*2. megoldás*/
+    padding: 30px auto;
+}
+
+#nagy{
+    /*kiskapitális betűméret*/
+    font-variant:small-caps ;
+    /*betűméret*/
+    font-size: 130%;
+    /*3. megoldás*/
+    /*nagybetűsít mindent*/
+    text-transform: uppercase;
+}
+
+#nagy2{
+    /*megoldás 2*/
+    /*szó első betűje legyen nagy, ha bekezdésben alkalmazod minden szó minden első betűje nagy lesz*/
+   text-transform: capitalize;
+}
+
+.alahuzott{
+    /*aláhúzott*/
+    text-decoration: underline;
+}
+
+.vastag{
+    /*vastagon szedett félkövér betűs*/
+    font-weight: bold;
+}
+
+
+.dol{
+    /*dőlt betűs*/
+    font-style: italic;s
+    font-style: oblique;
+}
+
+
+#parizs{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ananasz{
+    float: left;
+    width: 100px;
+    height: auto;
+}
